@@ -1,18 +1,18 @@
-var $htxhw$deckglcore = require("@deck.gl/core");
-var $htxhw$deckgllayers = require("@deck.gl/layers");
+var $cKcV5$deckglcore = require("@deck.gl/core");
+var $cKcV5$deckgllayers = require("@deck.gl/layers");
 
 
 
-const $2d99819a616f6df5$var$INITIAL_VIEW_STATE = {
+const $dcf42b15dd861d17$var$INITIAL_VIEW_STATE = {
     latitude: 37.8,
     longitude: -122.45,
     zoom: 15
 };
-const $2d99819a616f6df5$var$deckgl = new (0, $htxhw$deckglcore.Deck)({
-    initialViewState: $2d99819a616f6df5$var$INITIAL_VIEW_STATE,
+const $dcf42b15dd861d17$var$deckgl = new (0, $cKcV5$deckglcore.Deck)({
+    initialViewState: $dcf42b15dd861d17$var$INITIAL_VIEW_STATE,
     controller: true,
     layers: [
-        new (0, $htxhw$deckgllayers.ScatterplotLayer)({
+        new (0, $cKcV5$deckgllayers.ScatterplotLayer)({
             data: [
                 {
                     position: [

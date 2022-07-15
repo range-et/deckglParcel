@@ -5,6 +5,7 @@
   "source": "./Src/index.js",
   "main": "./Build/pgl.js",
   "module": "./Build/pgl_module.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build"
@@ -15,7 +16,7 @@
       "includeNodeModules": false
     },
     "module": {
-      "includeNodeModules": true
+      "includeNodeModules": false
     }
   },
   "license": "MIT",
